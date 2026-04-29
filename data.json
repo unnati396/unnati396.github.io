@@ -15,7 +15,8 @@
     "description": "~8 years building scalable backend systems, payment platforms, and high-throughput distributed architectures at <strong>Eventbrite</strong> & <strong>Byju's Exam Prep</strong>.",
     "actions": [
       { "text": "Get in Touch", "href": "#contact", "variant": "primary" },
-      { "text": "View Experience", "href": "#experience", "variant": "ghost" }
+      { "text": "View Experience", "href": "#experience", "variant": "ghost" },
+      { "text": "Download Resume", "href": "resume.pdf", "variant": "ghost", "download": true }
     ],
     "stats": [
       { "value": 8, "suffix": "", "label": "Years Experience" },
@@ -137,16 +138,6 @@
       "tech": ["TypeScript", "Node.js", "DynamoDB", "SQS", "AWS Lambda", "AWS CDK"]
     },
     {
-      "label": "Eventbrite",
-      "title": "Trust Signals & Credibility Badges",
-      "description": "Designed and built trust signals leveraging historical data to enhance event authenticity. Resulted in 4% increase in conversion and 0.6% increase in overall orders.",
-      "featured": false,
-      "metrics": [
-        { "value": "4%", "label": "Conversion Increase" }
-      ],
-      "tech": ["Node.js", "PostgreSQL", "Redis"]
-    },
-    {
       "label": "Byju's Exam Prep",
       "title": "Subscription Model Migration",
       "description": "Successfully migrated from a product-based model to a subscription-based model with handling for existing paid users. Achieved a remarkable 40% increase in ARPU.",
@@ -242,7 +233,7 @@
     {
       "title": "AutoApply",
       "description": "Chrome extension that automates job applications. Stores your profile data and auto-fills application forms across job boards, generates tailored cover letters with AI, and tracks applied positions.",
-      "url": "https://github.com/unnati396/auto-apply",
+      "url": "https://chromewebstore.google.com/detail/autoapply/iddlggbjccekokpfmknidehlcadipilk",
       "tech": ["Chrome Extension", "Manifest V3", "JavaScript"]
     },
     {
@@ -305,7 +296,7 @@
   },
 
   "footer": {
-    "text": "© 2025 Unnati Agrawal. Built with care.",
+    "text": "© {{YEAR}} Unnati Agrawal. Built with care.",
     "links": [
       { "type": "github", "href": "https://github.com/unnati396", "label": "GitHub" },
       { "type": "linkedin", "href": "https://www.linkedin.com/in/unnati-agrawal-a5a4b4188/", "label": "LinkedIn" },
