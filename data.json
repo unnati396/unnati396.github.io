@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "name": "Unnati Agrawal",
+    "title": "Senior Software Engineer",
+    "description": "Senior Software Engineer at Eventbrite with ~8 years of experience building scalable backend systems, payment platforms, and high-throughput distributed architectures.",
+    "keywords": "Unnati Agrawal, Software Engineer, Backend Developer, Node.js, AWS, Eventbrite, GraphQL, Distributed Systems",
+    "url": "https://unnati396.github.io",
+    "ogDescription": "~8 years building scalable backend systems, payment platforms, and distributed architectures at Eventbrite & Byju's Exam Prep."
+  },
+
+  "hero": {
+    "badge": "Open to new opportunities",
+    "name": "Unnati Agrawal",
+    "title": "Senior Software Engineer",
+    "description": "~8 years building scalable backend systems, payment platforms, and high-throughput distributed architectures at <strong>Eventbrite</strong> & <strong>Byju's Exam Prep</strong>.",
+    "actions": [
+      { "text": "Get in Touch", "href": "#contact", "variant": "primary" },
+      { "text": "View Experience", "href": "#experience", "variant": "ghost" }
+    ],
+    "stats": [
+      { "value": 8, "suffix": "", "label": "Years Experience" },
+      { "value": 10, "suffix": "+", "label": "Team Members Led" },
+      { "value": 2, "suffix": "", "label": "Companies" }
+    ]
+  },
+
+  "about": {
+    "paragraphs": [
+      "I'm a backend-focused engineer who thrives in fast-paced environments where technical depth meets business impact. I started my career as a fresher at <strong>Gradeup</strong> (India's largest online competitive exam platform, serving 25M+ students), where I grew into a <strong>Staff Engineer & Backend Lead</strong> — building the backend architecture from the ground up, leading a team of 10+, and owning critical systems like payments, access control, and content delivery. Gradeup was acquired by <strong>Byju's for ~$50M in 2021</strong> and rebranded as Byju's Exam Prep.",
+      "I then joined <strong>Eventbrite</strong> (NYSE-listed, ~88M monthly active users, 270M+ tickets processed annually) where I architect and deliver high-impact features — from AI-powered chatbot integrations that reduce support volume by 60%, to checkout flow optimizations that contributed to $2M+ in creator retention.",
+      "I'm passionate about distributed systems, clean architecture, and mentoring engineers. I believe the best code is the code that scales — both technically and organizationally."
+    ],
+    "highlights": [
+      {
+        "icon": "layers",
+        "title": "System Design",
+        "description": "Microservices, event-driven architectures, and serverless systems at scale"
+      },
+      {
+        "icon": "team",
+        "title": "Leadership",
+        "description": "Managing teams of 10+, sprint planning, cross-team coordination, and mentorship"
+      },
+      {
+        "icon": "bolt",
+        "title": "Impact-Driven",
+        "description": "Delivering measurable outcomes — $2M+ retention, 60% support automation, 4% conversion lift"
+      }
+    ]
+  },
+
+  "experience": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Eventbrite",
+      "companyNote": "(NYSE: EB · ~88M monthly active users · 270M+ tickets/year · 4.7M events)",
+      "location": "Remote (Hyderabad, India)",
+      "date": "Oct 2023 — Present",
+      "active": true,
+      "summary": "",
+      "roleProgression": [],
+      "bullets": [
+        "Led architecture and delivery of a multi-slot time selection system for recurring events, coordinating across 3 engineering teams — decreased checkout abandonment by ~3% and contributed to <strong>$2M+ creator retention</strong>.",
+        "Designed a service to replace sequential service orchestration, reducing latency at scale — <strong>reduced API latency by 70%</strong>, enabling SLA-compliant, scalable checkout flows.",
+        "Designed and deployed <strong>AI chatbot integration (Decagon.ai)</strong>, aiming to reduce support contact volume by ~60% and improving customer satisfaction by ~30%.",
+        "Built trust signals and credibility badges using historical event data — <strong>increased conversion rate by ~4%</strong> and boosted overall engagement.",
+        "Architected a high-throughput feedback and rating system for scalable event and organizer insights.",
+        "Led migration from monolithic systems to AWS-based microservices for improved scalability and fault tolerance.",
+        "Implemented zero-downtime CI/CD pipelines (CircleCI) for faster, safer releases.",
+        "Authored unit, E2E, and smoke tests for critical workflows, improving release confidence.",
+        "Partnered with product, design, and global stakeholders (US & Spain) to align roadmaps."
+      ],
+      "tech": ["Node.js", "Python", "GraphQL", "AWS", "PostgreSQL", "Redis", "Kafka", "CircleCI", "Microservices"]
+    },
+    {
+      "role": "Staff Software Engineer — Backend Lead",
+      "company": "Byju's Exam Prep",
+      "companyNote": "(formerly Gradeup · acquired by Byju's in 2021 for ~$50M · 25M+ students · 150+ exams)",
+      "location": "Noida, India",
+      "date": "Jun 2018 — Sep 2023",
+      "active": false,
+      "summary": "Joined as a fresher at Gradeup (India's largest competitive exam prep platform, serving 25M+ students across 150+ exams) and grew to Backend Lead over 5 years. Gradeup was acquired by Byju's in 2021 for ~$50M and rebranded as Byju's Exam Prep. Led a team of 10+ engineers across 3 major squads.",
+      "roleProgression": [
+        { "years": "2022 — 2023", "desc": "Staff Engineer / Backend Lead — Led 10+ engineers, 3 squads, sprint management" },
+        { "years": "2020 — 2022", "desc": "Senior Software Engineer — Owned payment systems, subscription migration" },
+        { "years": "2018 — 2020", "desc": "Software Engineer — Full-stack development, admin panels, core features" }
+      ],
+      "bullets": [
+        "Mentored freshers and managed a team of ~10 professionals, actively managing sprints and leading multiple squads.",
+        "Complete ownership of main verticals: <strong>payment & access module</strong>, courses, test series, and internal products.",
+        "Migrated from product-based to subscription-based model — <strong>40% increase in ARPU</strong>.",
+        "Integrated payment gateways (Razorpay, Payu, Paytm) with end-to-end refund handling.",
+        "Built comprehensive discount system: coupons, custom pricing, lightning deals, installment plans.",
+        "Implemented BEP search revamp — <strong>clicks jumped from 40% to 76%</strong>.",
+        "Practice tab changes — <strong>attempts increased by ~30%</strong>.",
+        "Cost optimization: <strong>reduced Redis CPU by 30%</strong> through architectural fixes.",
+        "Built notification systems for Android & iOS apps, integrated BigQuery, Clevertap, Leadsquared.",
+        "Mega mock challenge (3X attempts vs normal), payment & access integration with Byjus, Role-Based Access, and platform rebranding from Gradeup to Byju's Exam Prep."
+      ],
+      "tech": ["Node.js", "React", "GraphQL", "REST APIs", "PostgreSQL", "Cassandra", "Redis", "Kafka", "AWS Lambda", "BigQuery", "Elasticsearch"]
+    },
+    {
+      "role": "B.Tech in Computer Science",
+      "company": "JSS Academy of Technical Education",
+      "companyNote": "",
+      "location": "Noida",
+      "date": "2014 — 2018",
+      "active": false,
+      "summary": "Graduated with 83.28%. House Captain and Freeship Scholar during school years.",
+      "roleProgression": [],
+      "bullets": [],
+      "tech": []
+    }
+  ],
+
+  "projects": [
+    {
+      "label": "Eventbrite",
+      "title": "AI Chatbot Integration (Decagon)",
+      "description": "Designed and built a system to integrate with Decagon.ai to solve user queries via chatbot, automating ~80% of support agent work. Reduced support contact volume by ~60% and improved customer satisfaction by ~30%.",
+      "featured": true,
+      "metrics": [
+        { "value": "60%", "label": "Support Volume Reduced" },
+        { "value": "30%", "label": "CSAT Improvement" }
+      ],
+      "tech": ["Node.js", "AWS", "Decagon AI"]
+    },
+    {
+      "label": "Eventbrite",
+      "title": "Event Sales Status Service",
+      "description": "Architected and built a high-performance service (event-sales-status-service) to power multi-slot time selection for recurring events and replace sequential checkout orchestration. Coordinated across 3 engineering teams — decreased checkout abandonment by ~3%, contributed to $2M+ in creator retention, and reduced API latency by 70% with SLA-compliant, scalable flows.",
+      "featured": true,
+      "metrics": [
+        { "value": "$2M+", "label": "Creator Retention" },
+        { "value": "70%", "label": "Latency Reduced" }
+      ],
+      "tech": ["TypeScript", "Node.js", "DynamoDB", "SQS", "AWS Lambda", "AWS CDK"]
+    },
+    {
+      "label": "Eventbrite",
+      "title": "Trust Signals & Credibility Badges",
+      "description": "Designed and built trust signals leveraging historical data to enhance event authenticity. Resulted in 4% increase in conversion and 0.6% increase in overall orders.",
+      "featured": false,
+      "metrics": [
+        { "value": "4%", "label": "Conversion Increase" }
+      ],
+      "tech": ["Node.js", "PostgreSQL", "Redis"]
+    },
+    {
+      "label": "Byju's Exam Prep",
+      "title": "Subscription Model Migration",
+      "description": "Successfully migrated from a product-based model to a subscription-based model with handling for existing paid users. Achieved a remarkable 40% increase in ARPU.",
+      "featured": false,
+      "metrics": [
+        { "value": "40%", "label": "ARPU Increase" }
+      ],
+      "tech": ["Node.js", "GraphQL", "PostgreSQL", "Redis"]
+    },
+    {
+      "label": "Byju's Exam Prep",
+      "title": "Payment Gateway & Discount Engine",
+      "description": "Integrated Razorpay, Payu, and Paytm with refund handling. Built a discount engine with coupons, lightning deals, installment plans, and webhook-driven async processing.",
+      "featured": false,
+      "metrics": [
+        { "value": "3", "label": "Payment Gateways" }
+      ],
+      "tech": ["Node.js", "GraphQL", "Cassandra", "Kafka", "Lambda"]
+    }
+  ],
+
+  "skills": [
+    {
+      "icon": "code",
+      "title": "Backend Development",
+      "tags": [
+        { "name": "Node.js", "primary": true },
+        { "name": "Python", "primary": true },
+        { "name": "GraphQL", "primary": false },
+        { "name": "REST APIs", "primary": false },
+        { "name": "AWS CDK (IaC)", "primary": false }
+      ]
+    },
+    {
+      "icon": "database",
+      "title": "Databases",
+      "tags": [
+        { "name": "PostgreSQL", "primary": true },
+        { "name": "MySQL", "primary": false },
+        { "name": "Cassandra", "primary": true },
+        { "name": "Elasticsearch", "primary": false },
+        { "name": "DynamoDB", "primary": false }
+      ]
+    },
+    {
+      "icon": "pulse",
+      "title": "Caching & Messaging",
+      "tags": [
+        { "name": "Redis", "primary": true },
+        { "name": "Kafka", "primary": true },
+        { "name": "RabbitMQ", "primary": false }
+      ]
+    },
+    {
+      "icon": "cloud",
+      "title": "Cloud & Infrastructure",
+      "tags": [
+        { "name": "AWS", "primary": true },
+        { "name": "Lambda", "primary": false },
+        { "name": "Microservices", "primary": false },
+        { "name": "Event-Driven Architecture", "primary": false },
+        { "name": "Serverless", "primary": false },
+        { "name": "CircleCI", "primary": false }
+      ]
+    },
+    {
+      "icon": "grid",
+      "title": "Frontend & Analytics",
+      "tags": [
+        { "name": "React", "primary": false },
+        { "name": "jQuery", "primary": false },
+        { "name": "BigQuery", "primary": false },
+        { "name": "Snowflake", "primary": false },
+        { "name": "Clevertap", "primary": false },
+        { "name": "Heap", "primary": false }
+      ]
+    },
+    {
+      "icon": "team",
+      "title": "Leadership",
+      "tags": [
+        { "name": "Team Management", "primary": false },
+        { "name": "Mentorship", "primary": false },
+        { "name": "Sprint Planning", "primary": false },
+        { "name": "Roadmap Planning", "primary": false },
+        { "name": "Cross-team Communication", "primary": false },
+        { "name": "Hiring", "primary": false }
+      ]
+    }
+  ],
+
+  "openSource": [
+    {
+      "title": "AutoApply",
+      "description": "Chrome extension that automates job applications. Stores your profile data and auto-fills application forms across job boards, generates tailored cover letters with AI, and tracks applied positions.",
+      "url": "https://github.com/unnati396/auto-apply",
+      "tech": ["Chrome Extension", "Manifest V3", "JavaScript"]
+    },
+    {
+      "title": "Smash",
+      "description": "A game built during an internal 24-hour hackathon at Byju's Exam Prep. Won 1st prize and was launched to production within 3 days of winning.",
+      "url": "",
+      "tech": ["Hackathon Winner", "Game Development"]
+    }
+  ],
+
+  "awards": [
+    {
+      "icon": "medal",
+      "title": "BriteIndia Impact Award",
+      "org": "Q2 2025 · Eventbrite",
+      "description": "Awarded for leading and delivering a high-impact project"
+    },
+    {
+      "icon": "star",
+      "title": "1st Prize — Internal Hackathon",
+      "org": "Byju's Exam Prep",
+      "description": "Built \"Smash\" game in 24 hours; launched to production in 3 days"
+    },
+    {
+      "icon": "book",
+      "title": "Freeship Scholar & House Captain",
+      "org": "School Years",
+      "description": "Academic merit scholarship recipient and student leadership"
+    },
+    {
+      "icon": "heart",
+      "title": "Volunteer — Akshargyaan",
+      "org": "Community",
+      "description": "Volunteered at an organization educating underprivileged children"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "text": "Unnati joined us as fresher and left as backend lead. She was our \"Miss Dependable\" at Gradeup. You can give her a project and forget about it. You will be pleasantly surprised by a solution that not only worked flawlessly but also covered edge cases most people wouldn't have even thought of. She was our go to person whenever we have to pick critical or complex projects at the company. She is very comfortable working in situations with ambiguity which helped us move faster at Gradeup. She made everyone's job easier be it Product, QA Frontend devs and of course her own backend team. Any company would be fortunate to have her.",
+      "name": "Sanjeev Kumar",
+      "initials": "SK",
+      "role": "Co-founder & CTO, Gradeup (acq: Byju's)"
+    },
+    {
+      "text": "While leading backend implementations at Gradeup, Unnati was known across the teams as dependable, kind, and efficient. Unnati's ability to handle ambiguity and develop resilient solutions for evolving problems was unmatched. She had joined the org as a fresher, but evolved into a kind rockstar everyone in the org looked up to. I recall Unnati owning and guiding the team in building / managing solutions around varied set of problems, like payments, mock tests, content operations, DB Migrations and CRM integrations. With her adaptability, professionalism, approachability, and exceptional skills, I would highly recommend her as a lead figure for high impact teams that are constantly learning and growing.",
+      "name": "Piyush Singh",
+      "initials": "PS",
+      "role": "Engineering Manager, Gradeup (Direct Manager for 5.5 years)"
+    }
+  ],
+
+  "contact": {
+    "description": "I'm currently open to new opportunities — whether it's a senior/staff backend engineering role, a technical leadership position, or an exciting early-stage startup. Let's talk.",
+    "links": [
+      { "type": "email", "label": "Email", "value": "unnati731996@gmail.com", "href": "mailto:unnati731996@gmail.com" },
+      { "type": "linkedin", "label": "LinkedIn", "value": "unnati-agrawal", "href": "https://www.linkedin.com/in/unnati-agrawal-a5a4b4188/" },
+      { "type": "github", "label": "GitHub", "value": "unnati396", "href": "https://github.com/unnati396" }
+    ]
+  },
+
+  "footer": {
+    "text": "© 2025 Unnati Agrawal. Built with care.",
+    "links": [
+      { "type": "github", "href": "https://github.com/unnati396", "label": "GitHub" },
+      { "type": "linkedin", "href": "https://www.linkedin.com/in/unnati-agrawal-a5a4b4188/", "label": "LinkedIn" },
+      { "type": "email", "href": "mailto:unnati731996@gmail.com", "label": "Email" }
+    ]
+  }
+}
